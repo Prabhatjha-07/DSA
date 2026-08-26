@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<title>Registration Form</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+    }
+    
+    .container {
+        width: 50%;
+        margin: 50px auto;
+        background-color: #fff;
+       
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    input[type="submit"] {
+        width: 100%;
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+    <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="E:\Vscode\html\Hackathon\img\logo_white.png" width="162" height="50" alt="TULA's LOGO">
+      </a>
+
+      
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>HOME</a>
+          </li>
+
+          
+
+      </nav>
+
+      
+
+     
+  </header>
+
+<div class="container">
+    <h2>Registration Form</h2>
+
+    <form action="https://formsubmit.co/mjprabhat906@gmail.com" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="course">Course:</label>
+        <input type="text" id="course" name="course" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="batch">Batch:</label>
+        <input type="text" id="batch" name="batch" required>
+
+        <label for="company">Company Working With:</label>
+        <input type="text" id="company" name="company" required>
+
+        <label for="role">Role in the Company:</label>
+        <input type="text" id="role" name="role" required>
+
+        <label for="linkedin">LinkedIn ID:</label>
+        <input type="text" id="linkedin" name="linkedin">
+
+        <label for="contact">Contact No:</label>
+        <input type="tel" id="contact" name="contact" required>
+
+        <input type="submit" value="Submit">
+       
+    </form>
+</div>
+<!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="E:\Vscode\html\Hackathon\img\web-logo.png" width="162" height="50" alt="TULA'S logo">
+          </a>
+
+          <p class="footer-brand-text">
+            Affiliated to Uttarakhand Technical University and Sri Dev Suman University, Approved by AICTE, Ministry of HRD, Govt of India
+          </p>
+
+          <div class="wrapper">
+            <span class="span">Add:</span>
+
+            <address class="address">Tulas Institute Dhoolkot Dehradun Uttarakhand 248011</address>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Call:</span>
+
+            <a href="" class="footer-link">+91 6366937159</a>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Email:</span>
+
+            <a href="mailto:info@tulas.edu.in" class="footer-link">info@tulas.edu.in</a>
+          </div>
+
+        </div>
+
+        <p class="copyright">
+          Copyright 2024 All Rights Reserved by <a href="https://www.linkedin.com/in/prabhat-jha-72518a292/" class="copyright-link">Prabhat Kumar jha </a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+</html>
