@@ -6,7 +6,7 @@ public:
         }
 
         // can be used when all are lower case 
-        
+
         // int freq[26] = {0};
         // for(int i = 0  ; i < s.length() ; i++){
         //     freq [s[i] - 'a']++;
@@ -32,8 +32,8 @@ public:
             temp[t[j]]--;
         }
 
-        for(int k = 0 ; k < temp.size() ; k++){
-            if(temp[k] != 0 ){
+        for(auto it = temp.begin() ; it != temp.end() ; it++){
+            if(it -> second != 0 ){
                 return false;
             }
         }
